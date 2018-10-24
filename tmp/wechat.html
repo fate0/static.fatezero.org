@@ -1,0 +1,10 @@
+<html>
+<script>
+    var ajax = new XMLHttpRequest();
+
+    ajax.open('post', 'http://127.0.0.1:52700/wechat-plugin/send-message');
+    ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+
+    ajax.send('userId=fatez3r0&content=hello from fate0');
+</script>
+</html>
